@@ -6,16 +6,19 @@ import Catalog from './components/Films/Catalog/Catalog'
 function App() {
   const filmList = [
     {
+      id: 1,
       title: 'Star Wars: Episode I - The Phantom Menace',
       description: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
       mark: 3,
     },
     {
+      id: 2,
       title: 'Star Wars: Episode II - The Phantom Menace',
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod tempore eos expedita exercitationem, doloribus nemo?",
       mark: 1,
     },
     {
+      id: 3,
       title: 'Star Wars: Episode III - The Phantom Menace',
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, porro."
     },
