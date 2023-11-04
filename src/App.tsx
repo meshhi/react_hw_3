@@ -1,6 +1,7 @@
 import './App.css'
 import { Route, Routes, Link } from 'react-router-dom'
 import Films from './components/Films/Films'
+import Catalog from './components/Films/Catalog/Catalog'
 
 function App() {
   const filmList = [
@@ -19,13 +20,16 @@ function App() {
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, porro."
     },
   ]
+
   return (
     <>
     <nav style={{height: "100px", display: "flex", justifyContent: "center", alignItems: 'center'}}>
       <Link to={"/films"}>Films</Link>
+      <Link to={"/catalog"}>Catalog</Link>
     </nav>
     <Routes>
       <Route path='/films' element={<Films films={filmList}></Films>}></Route>
+      <Route path='/catalog' element={<Catalog></Catalog>}></Route>
     </Routes>
 
     </>

@@ -3,7 +3,7 @@ import FilmCard from "./FilmCard/FilmCard";
 interface IFilm {
     title: string;
     description: string;
-    mark: number;
+    mark?: number;
 }
 
 interface IFilmsProps {
