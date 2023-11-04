@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    <nav style={{height: "100px", display: "flex", justifyContent: "center", alignItems: 'center'}}>
+    <nav style={{height: "100px", display: "flex", justifyContent: "center", alignItems: 'center', gap: "1rem"}}>
       <Link to={"/films"}>Films</Link>
       <Link to={"/catalog"}>Catalog</Link>
     </nav>
